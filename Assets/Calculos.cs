@@ -11,7 +11,7 @@ public class Calculos : MonoBehaviour
     void Start()
     {
         resultado = num1 + num2;
-        Debug.Log(resultado);
+        Debug.Log("El resultado de la suma entre " + num1 + " y " + num2 + " es: " + resultado);
     }
 
     // Update is called once per frame
